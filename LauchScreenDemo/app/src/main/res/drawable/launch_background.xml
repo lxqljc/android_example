@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--背景颜色-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <!--logo居中-->
+    <item android:bottom="150dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/flutter_logo" />
+    </item>
+    <!--底部文字-->
+    <item android:bottom="20dp">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/flutter_text" />
+    </item>
+
+</layer-list>

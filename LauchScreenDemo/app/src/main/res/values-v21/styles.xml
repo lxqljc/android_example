@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 定义启动页主题-->
+    <style name="LaunchScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen" />
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <!--顶部和底部导航栏都不延伸，底部要有虚拟键，会挡住文字-->
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+</resources>
